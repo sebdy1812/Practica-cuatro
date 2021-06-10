@@ -1,0 +1,33 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.flex-container
+{
+    display: flex;
+    background-color: darkseagreen;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.cuadro
+{
+    width: 100px;
+    height: 100px;
+    background-color: tomato;
+    border: 1px solid black;
+}
+.parte
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.parte:nth-child(2)
+{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-content: space-between;
+}
